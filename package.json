@@ -1,0 +1,36 @@
+{
+  "name": "backend_hexagonal_express",
+  "version": "1.0.0",
+  "description": "ejemplo de arquitectura hexagonal en express y nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --require @babel/register --require babel-polyfill --require dotenv/config --watch ./src",
+    "test": "jest --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecretWars007/backend_hexagonal_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SecretWars007/backend_hexagonal_express/issues"
+  },
+  "homepage": "https://github.com/SecretWars007/backend_hexagonal_express#readme",
+  "dependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/register": "^7.25.9",
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^13.1.0",
+    "babel-polyfill": "^6.26.0",
+    "dotenv": "^16.5.0",
+    "koa": "^2.16.1",
+    "koa-body": "^6.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9"
+  }
+}
